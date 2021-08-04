@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Logs</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="../static/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="row">
+    <div class="container">
+    <p>{{dt}}</p>
+    <p>Login <a href="/login">Here</a></p>
+    <p>Scan (manual) <a href="{{url_for('scan')}}">Entry</a></p>
+    <p>Show <a href="{{url_for('datas')}}">Data</a>.</p>
+    <p>Show <a href="{{url_for('maps')}}">Maps</a>.</p>
+    <p>Show <a href="{{url_for('datas_api')}}">Data (json)</a>.</p>
+    <p>Documentation <a href="/docs">Here</a></p>         
+  
+</div>
+</div>
+
+
+    <script src="../static/js/bootstrap.min.js"></script>
+
+</body>
+</html>
